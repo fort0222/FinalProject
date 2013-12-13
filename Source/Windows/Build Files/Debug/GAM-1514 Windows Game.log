@@ -1,0 +1,309 @@
+﻿Build started 12/13/2013 3:55:03 PM.
+     1>Project "F:\Final\Assignment-3\Source\Windows\Windows Game\GAM-1514 Windows Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\\" /Fd"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Common\Game\Enemy.cpp ..\..\Common\Game\Hero.cpp ..\..\Common\Game\Player.cpp
+         Player.cpp
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\game\player.cpp(52): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(52): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\final\assignment-3\source\common\game\player.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\final\assignment-3\source\common\game\player.cpp(297): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(297): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\player.cpp(335): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Hero.cpp
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\game\hero.cpp(38): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(38): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(87): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(87): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\final\assignment-3\source\common\game\hero.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+         Enemy.cpp
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\final\assignment-3\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\\" /Fd"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Common\Libraries\libpng\png.c ..\..\Common\Libraries\libpng\pngerror.c ..\..\Common\Libraries\libpng\pngget.c ..\..\Common\Libraries\libpng\pngmem.c ..\..\Common\Libraries\libpng\pngpread.c ..\..\Common\Libraries\libpng\pngread.c ..\..\Common\Libraries\libpng\pngrio.c ..\..\Common\Libraries\libpng\pngrtran.c ..\..\Common\Libraries\libpng\pngrutil.c ..\..\Common\Libraries\libpng\pngset.c ..\..\Common\Libraries\libpng\pngtrans.c ..\..\Common\Libraries\libpng\pngwio.c ..\..\Common\Libraries\libpng\pngwrite.c ..\..\Common\Libraries\libpng\pngwtran.c ..\..\Common\Libraries\libpng\pngwutil.c ..\..\Common\Libraries\zlib\adler32.c ..\..\Common\Libraries\zlib\compress.c ..\..\Common\Libraries\zlib\crc32.c ..\..\Common\Libraries\zlib\deflate.c ..\..\Common\Libraries\zlib\gzclose.c ..\..\Common\Libraries\zlib\gzlib.c ..\..\Common\Libraries\zlib\gzread.c ..\..\Common\Libraries\zlib\gzwrite.c ..\..\Common\Libraries\zlib\infback.c ..\..\Common\Libraries\zlib\inffast.c ..\..\Common\Libraries\zlib\inflate.c ..\..\Common\Libraries\zlib\inftrees.c ..\..\Common\Libraries\zlib\trees.c ..\..\Common\Libraries\zlib\uncompr.c ..\..\Common\Libraries\zlib\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(355): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzwrite.c(561): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         gzread.c
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzread.c(586): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         gzlib.c
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(191): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(206): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(211): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(239): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(272) : see declaration of '_wopen'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(239): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(312) : see declaration of 'open'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(597): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(598): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\final\assignment-3\source\common\libraries\zlib\gzlib.c(599): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         pngwutil.c
+         pngwtran.c
+         pngwrite.c
+     1>f:\final\assignment-3\source\common\libraries\libpng\pngwrite.c(444): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+         pngwio.c
+         pngtrans.c
+         Generating Code...
+         Compiling...
+         pngset.c
+         pngrutil.c
+         pngrtran.c
+         pngrio.c
+         pngread.c
+         pngpread.c
+         pngmem.c
+         pngget.c
+         pngerror.c
+         png.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest.res" "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Final\Assignment-3\Source\Windows\\Application\GAM-1514 Windows Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Dependencies\DevIL\lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Final\Assignment-3\Source\Windows\Application\GAM-1514 Windows Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Final\Assignment-3\Source\Windows\\Application\GAM-1514 Windows Game.lib" /MACHINE:X86 "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest.res"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LevelConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MenuConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ResourceConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Enemy.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Game.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameObject.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Hero.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Level.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PathFinder.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PathNode.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\AmmoPickup.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Pickup.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Player.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Projectile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\DirtTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\FloorTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GrassTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GroundTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LavaTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PitTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Tile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\WaterTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputListener.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\KeyboardEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MouseEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LevelEditor.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_reader.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_value.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_writer.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\png.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngerror.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngget.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngmem.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngpread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrio.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrtran.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngset.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngtrans.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwio.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwrite.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwtran.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\adler32.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\compress.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\crc32.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\deflate.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzclose.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzlib.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzwrite.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\infback.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inffast.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inflate.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inftrees.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\trees.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\uncompr.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\zutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GDRandom.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GDRandomSearch.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameOverScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\HighScoreScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MainMenu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Menu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SaveLoad.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SettingsScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SplashScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\WinScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLAnimatedTexture.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLRenderer.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTexture.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureCache.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureLoader.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Screen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ScreenManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UIButton.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UISideMenu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UISideMenuLeft.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UIToggle.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Logger.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MathUtils.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ResourceUtils.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Win32Constants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Win32Game.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Main.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLWindow.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest" /manifest "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest.res" "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Final\Assignment-3\Source\Windows\\Application\GAM-1514 Windows Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Dependencies\DevIL\lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Final\Assignment-3\Source\Windows\Application\GAM-1514 Windows Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Final\Assignment-3\Source\Windows\\Application\GAM-1514 Windows Game.lib" /MACHINE:X86 "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest.res"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LevelConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MenuConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ResourceConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Enemy.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Game.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameObject.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Hero.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Level.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PathFinder.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PathNode.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\AmmoPickup.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Pickup.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Player.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Projectile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\DirtTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\FloorTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GrassTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GroundTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LavaTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\PitTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Tile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\WaterTile.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputConstants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputListener.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\InputManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\KeyboardEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MouseEvent.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\LevelEditor.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_reader.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_value.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\json_writer.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\png.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngerror.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngget.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngmem.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngpread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrio.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrtran.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngrutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngset.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngtrans.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwio.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwrite.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwtran.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\pngwutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\adler32.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\compress.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\crc32.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\deflate.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzclose.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzlib.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzread.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\gzwrite.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\infback.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inffast.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inflate.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\inftrees.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\trees.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\uncompr.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\zutil.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GDRandom.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GDRandomSearch.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GameOverScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\HighScoreScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MainMenu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Menu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SaveLoad.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SettingsScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\SplashScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\WinScreen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLAnimatedTexture.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLRenderer.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTexture.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureCache.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureLoader.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLTextureManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Screen.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ScreenManager.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UIButton.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UISideMenu.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UISideMenuLeft.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\UIToggle.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Logger.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\MathUtils.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\ResourceUtils.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Win32Constants.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Win32Game.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\Main.obj"
+         "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\OpenGLWindow.obj"
+         GAM-1514 Windows Game.vcxproj -> F:\Final\Assignment-3\Source\Windows\\Application\GAM-1514 Windows Game.exe
+       FinalizeBuildStatus:
+         Deleting file "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.unsuccessfulbuild".
+         Touching "F:\Final\Assignment-3\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.lastbuildstate".
+     1>Done Building Project "F:\Final\Assignment-3\Source\Windows\Windows Game\GAM-1514 Windows Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.80
